@@ -1,7 +1,7 @@
 function main() {
   var c = document.getElementById("c");
-  var w = c.width = window.innerWidth / 2,
-      h = c.height = window.innerHeight / 2,
+  var w = c.width = window.innerWidth,
+      h = c.height = window.innerHeight,
       ctx = c.getContext( '2d' ),
       
       opts = {
