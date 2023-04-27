@@ -1,5 +1,6 @@
 function main() {
   var c = document.getElementById("c");
+  var container = document.getElementById("container");
   var w = c.width = window.innerWidth/2,
       h = c.height = window.innerHeight/2,
       ctx = c.getContext( '2d' ),
