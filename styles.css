@@ -29,4 +29,5 @@ canvas {
     position: relative;
     z-index: 1;
 		width: 50vw;
+		color:white;
   }
